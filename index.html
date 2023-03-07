@@ -27,8 +27,8 @@
                 <div class="row">
                     <div class="col-6">
                         <label for="basic-url" class="form-label">UF</label>
-                        <select id="estado" onchange="buscaCidades(this.value)" class="form-select uf borda" aria-label="Default select example">
-                            <option selected>Selecione:</option>
+                        <select id="estado" onchange="buscaCidades(this.value)" class="form-select uf borda" aria-label="Default select example" required>
+                            <option selected value="">Selecione:</option>
                             <option value="AC">Acre</option>
                             <option value="AL">Alagoas</option>
                             <option value="AP">Amapá</option>
@@ -60,8 +60,8 @@
                     </div>
                     <div class="col-6">
                         <label for="basic-url" class="form-label">MUNÍCIPIO</label>
-                        <select id="cidade" class="form-select borda"aria-label="Default select example">
-                            <option selected>Selecione:</option>
+                        <select id="cidade" class="form-select borda"aria-label="Default select example" required>
+                            <option selected value="">Selecione:</option>
                         </select>
                     </div>
                 </div>
@@ -69,13 +69,13 @@
                     <div class="col-6">
                         <label for="basic-url" class="form-label">INSTITUIÇÃO</label>
                         <div class="input">
-                            <input type="text" id="borda" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input type="text" class="form-control borda" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
                         </div>
                     </div>
                     <div class="col-6">
                         <label for="basic-url" class="form-label">GESTOR</label>
                         <div class="input">
-                            <input type="text" id="borda" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input type="text" class="form-control borda" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
                         </div>
                     </div>
                 </div>
@@ -83,19 +83,19 @@
                     <div class="col-6">
                         <div class="input">
                             <label for="basic-url" class="form-label">PACIENTE</label>
-                            <input type="text" id="borda" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input type="text" class="form-control borda" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
                         </div>
                     </div>
                     <div class="col-6">
                         <div class="input">
                             <label for="basic-url" class="form-label">CPF</label>
-                            <input type="text" id="borda" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <input type="text" class="form-control borda" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="centralizar mt-4">
-                <input type="submit" id="borda" class="btn btn-dark" value="Reportar">   
+                <input type="submit" class="btn btn-dark borda" value="Reportar">   
             </div>
         </div>
     </form>
