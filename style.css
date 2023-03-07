@@ -1,3 +1,7 @@
-#titulo{
+.centralizar{
     color: violet;
+    text-align: center;
+}
+#borda{
+    border-radius: 0px;
 }
